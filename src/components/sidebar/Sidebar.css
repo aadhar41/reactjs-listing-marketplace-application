@@ -1,0 +1,9 @@
+.sidebar-section {
+    flex: 3; /* Occupy 3 of 12 parts. So that listing can take 9 parts. */
+}
+
+.sidebar-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
