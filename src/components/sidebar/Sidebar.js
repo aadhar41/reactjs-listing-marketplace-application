@@ -34,7 +34,7 @@ function Sidebar() {
                 </ul>
             </div>
             <div className='sidebar-subsection'>
-                <span className='sidebar-title'>Follow us on:</span>
+                <span className='sidebar-title'>Follow us</span>
                 <div className='sidebar-social-icons'>
                     <i className="sidebar-social-icon fa-brands fa-instagram"></i>
                     <i className="sidebar-social-icon fa-brands fa-facebook"></i>
