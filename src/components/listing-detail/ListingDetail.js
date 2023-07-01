@@ -5,14 +5,14 @@ function ListingDetail() {
     return (
         <div className='listing-detail'>
             <div className='listing-detail-content'>
-                <img src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3352&h=2286&dpr=1' className='listing-detail' />
-                <h2 className='listing-detail-title'>
+                <img className="listing-detail-img" src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3352&h=2286&dpr=1' />
+                <h1 className='listing-detail-title'>
                     Awesome Property
                     <div className='listing-detail-action'>
                         <i class="listing-detail-action-icon fa-solid fa-pen-to-square"></i>
                         <i class="listing-detail-action-icon fa-solid fa-trash"></i>
                     </div>
-                </h2>
+                </h1>
                 <div className='listing-detail-meta-info'>
                     <span className='listing-detail-author'>Author - <strong>John Doe</strong></span>
                     <span className='listing-detail-time'>1 day ago</span>
