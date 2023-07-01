@@ -1,3 +1,26 @@
 .create-listing-img-upload {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.create-listing {
+  padding-top: 40px;
+}
+
+.create-listing-form-group {
+    margin-bottom: 25px!important;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.upload-icon {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 3px solid var(--darker-khaki);
+    color: var(--darker-khaki);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 28px;
 }

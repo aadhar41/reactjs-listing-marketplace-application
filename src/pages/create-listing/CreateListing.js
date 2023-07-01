@@ -8,7 +8,7 @@ function CreateListing() {
                 <div className='create-listing-form-group'>
                     <input type='text' placeholder='Property title' className='create-listing-text' autoFocus={true} />
                     <label htmlFor='listingImg' className='create-listing-img-upload'>
-                        Upload Image <i class="fa-solid fa-upload"></i>
+                        <i class="upload-icon fa-solid fa-upload"></i>
                     </label>
                     <input type='file' className='listingImg' id='listingImg' style={{ display: "none" }} />
                 </div>
@@ -16,6 +16,7 @@ function CreateListing() {
                     <textarea className='create-listing-text create-listing-description' placeholder='Property Description'></textarea>
                 </div>
             </form>
+            <button className='create-listing-button'>Submit</button>
         </div>
     )
 }
