@@ -34,12 +34,12 @@
 
 .listing-detail-action-icon:first-child {
   /* target the first action button */
-  color: var(--success);
+  color: var(--green-500);
 }
 
 .listing-detail-action-icon:last-child {
   /* target the first action button */
-  color: var(--danger);
+  color: var(--red-500);
 }
 
 .listing-detail-meta-info {
@@ -48,4 +48,10 @@
   font-size: 18px;
   color: var(--gray-700);
   margin-bottom: 22px;
+}
+
+.listing-detail-description {
+  line-height: 24px; /* Vertical gap between 2 lines. */
+  font-size: 16px;
+  color: var(--gray-800);
 }
