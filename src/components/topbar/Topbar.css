@@ -3,6 +3,7 @@
   --white: #ffffff;
   --dimgray: #696969;
   --darkkhaki: #a49d49;
+  --black: #000000;
 }
 
 .topbar {
@@ -56,7 +57,7 @@
   margin-right: 22px;
   font-size: 20px;
   cursor: pointer;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--darkkhaki);
 }
 

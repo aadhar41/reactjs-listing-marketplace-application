@@ -3,6 +3,7 @@
   --white: #ffffff;
   --dimgray: #696969;
   --darkkhaki: #a49d49;
+  --black: #000000;
 }
 
 .hero-text {
@@ -10,21 +11,26 @@
   flex-direction: column; /* We want to stack on top of other. */
   align-items: center; /* Here align item will horizontally make items center because its flex direction as column. */
   font-family: "Nunito Sans", sans-serif;
-  color: #fff;
+  color: var(--ivory);
   font: italic;
   text-transform: uppercase;
+  text-shadow: 2px 2px 4px var(--black);
 }
 
 .hero-text-title {
   position: absolute;
   top: 18%;
   font-size: 90px;
+  color: var(--ivory);
+  text-shadow: 2px 2px 4px var(--black);
 }
 
 .hero-text-subtitle {
   position: absolute;
   top: 16%;
   font-size: 22px;
+  color: var(--ivory);
+  text-shadow: 2px 2px 4px var(--black);
 }
 
 .hero-image {

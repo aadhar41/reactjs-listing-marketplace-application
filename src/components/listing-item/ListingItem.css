@@ -5,7 +5,3 @@
   --darkkhaki: #a49d49;
   --black: #000000;
 }
-
-.listing-section {
-  flex: 9; /* Occupy 9 of 12 parts. So that sidebar can take 3 parts. */
-}
