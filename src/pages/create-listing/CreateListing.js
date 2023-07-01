@@ -13,7 +13,7 @@ function CreateListing() {
                     <input type='file' className='listingImg' id='listingImg' style={{ display: "none" }} />
                 </div>
                 <div className='create-listing-form-group'>
-                    <textarea className='create-listing-text create-listing-description' placeholder='Property Description'></textarea>
+                    <textarea className='create-listing-text create-listing-desc' placeholder='Property Description'></textarea>
                 </div>
             </form>
             <button className='create-listing-button'>Submit</button>
