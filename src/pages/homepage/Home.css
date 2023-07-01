@@ -1,11 +1,3 @@
-:root {
-  --ivory: #fffff0;
-  --white: #ffffff;
-  --dimgray: #696969;
-  --darkkhaki: #a49d49;
-  --black: #000000;
-}
-
 .home-page {
   display: flex;
 }
