@@ -10,7 +10,7 @@ function ListingDetail() {
                     Awesome Property
                     <div className='listing-detail-action'>
                         <i class="listing-detail-action-icon fa-solid fa-pen-to-square"></i>
-                        <i class="listing-detail-action-icon fa-solid fa-trash"></i>
+                        <i class="listing-detail-action-icon fa-solid fa-trash-can"></i>
                     </div>
                 </h1>
                 <div className='listing-detail-meta-info'>

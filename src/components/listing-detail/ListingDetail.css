@@ -3,7 +3,7 @@
 }
 
 .listing-detail-content {
-    padding: 20px 0px 20px 20px;
+  padding: 20px 0px 20px 20px;
 }
 
 .listing-detail-img {
@@ -11,4 +11,31 @@
   height: 320px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.listing-detail-title {
+  text-align: center;
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin: 10px 0; /* margin on y axis 10px and x-axis 10px */
+}
+
+.listing-detail-action {
+  float: right;
+  font-size: 30px;
+}
+
+.listing-detail-action-icon {
+    font-size: 24px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.listing-detail-action-icon:first-child { /* target the first action button */
+    color: var(--success) ;
+}
+
+.listing-detail-action-icon:last-child { /* target the first action button */
+    color: var(--danger) ;
 }
