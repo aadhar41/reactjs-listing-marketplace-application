@@ -1,9 +1,47 @@
+:root {
+  --ivory: #fffff0;
+  --white: #ffffff;
+  --dimgray: #696969;
+  --darkkhaki: #a49d49;
+}
+
 .sidebar-section {
-    flex: 3; /* Occupy 3 of 12 parts. So that listing can take 9 parts. */
+  flex: 3; /* Occupy 3 of 12 parts. So that listing can take 9 parts. */
+  margin: 20px;
+  padding-bottom: 32px;
+  background-color: var(--ivory);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-title {
+  text-transform: uppercase;
+  margin: 12px;
+  padding: 6px;
+  border-top: 1px solid var(--darkkhaki);
+  border-bottom: 1px solid var(--darkkhaki);
+  font-family: "Raleway", sans-serif;
+  line-height: 22px;
+  font-weight: 600;
 }
 
 .sidebar-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.sidebar-subsection > p {
+  padding: 28px;
+  text-align: center;
 }
