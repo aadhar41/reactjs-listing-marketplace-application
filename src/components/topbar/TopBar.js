@@ -1,5 +1,6 @@
 import React from 'react';
 import './Topbar.css';
+import { NavLink } from "react-router-dom";
 
 function TopBar() {
     return (
@@ -12,10 +13,14 @@ function TopBar() {
             </div>
             <div className='topbar-center'>
                 <ul className='topbar-list'>
-                    <li className='topbar-list-item'>Home</li>
+                    <li className='topbar-list-item'>
+                        <NavLink to="/">Home</NavLink>
+                    </li>
                     <li className='topbar-list-item'>About</li>
                     <li className='topbar-list-item'>Contact</li>
-                    <li className='topbar-list-item'>Create Listing</li>
+                    <li className='topbar-list-item'>
+                        <NavLink to="/create">Create Property</NavLink>
+                    </li>
                     <li className='topbar-list-item'>Logout</li>
                 </ul>
             </div>

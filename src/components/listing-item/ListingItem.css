@@ -1,0 +1,55 @@
+.listing-item {
+  width: 300px;
+  margin: 0px 25px 40px 25px; /* Top right bottom left */
+}
+
+.listing-image {
+  width: 100%; /* 100% here is equal to 380px width of parent. */
+  height: 270px;
+  object-fit: cover; /* Whole image adjust to the width and height. */
+  border-radius: 4px;
+}
+
+.listing-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listing-category {
+  font-size: 0.9rem;
+  color: var(--gray);
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin: 16px 12px 0px 0px;
+  cursor: pointer;
+}
+
+.listing-title {
+  padding: 0px 12px;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.listing-time {
+  font-size: 14px;
+  color: var(--gray);
+  margin-top: 5px;
+}
+
+.listing-description {
+    color: var(--gray);
+    line-height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* show only 5 line after that show ... */
+    -webkit-box-orient: vertical;
+}

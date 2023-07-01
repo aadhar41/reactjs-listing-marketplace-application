@@ -1,10 +1,3 @@
-:root {
-  --ivory: #fffff0;
-  --white: #ffffff;
-  --dimgray: #696969;
-  --darkkhaki: #a49d49;
-}
-
 .topbar {
   width: 100%;
   height: 50px;
@@ -15,6 +8,7 @@
   display: flex;
   align-items: center; /* aligns items/content inside this parent vertically center. */
   font-family: "Ubuntu", sans-serif;
+  z-index: 5;
 }
 
 .topbar-left,
@@ -56,8 +50,16 @@
   margin-right: 22px;
   font-size: 20px;
   cursor: pointer;
-  font-weight: 200;
+  font-weight: 400;
   color: var(--darkkhaki);
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .topbar-search {
