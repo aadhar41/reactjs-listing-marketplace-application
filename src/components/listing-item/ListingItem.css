@@ -1,0 +1,10 @@
+.listing-item {
+  width: 380px;
+  margin: 0px 25px 40px 25px; /* Top right bottom left */
+}
+
+.listing-image {
+    width: 100%; /* 100% here is equal to 380px width of parent. */
+    height: 270px;
+    object-fit: cover; /* Whole image adjust to the width and height. */
+}
