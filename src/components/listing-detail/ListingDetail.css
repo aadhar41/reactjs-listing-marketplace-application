@@ -27,15 +27,25 @@
 }
 
 .listing-detail-action-icon {
-    font-size: 24px;
-    margin-left: 12px;
-    cursor: pointer;
+  font-size: 24px;
+  margin-left: 12px;
+  cursor: pointer;
 }
 
-.listing-detail-action-icon:first-child { /* target the first action button */
-    color: var(--success) ;
+.listing-detail-action-icon:first-child {
+  /* target the first action button */
+  color: var(--success);
 }
 
-.listing-detail-action-icon:last-child { /* target the first action button */
-    color: var(--danger) ;
+.listing-detail-action-icon:last-child {
+  /* target the first action button */
+  color: var(--danger);
+}
+
+.listing-detail-meta-info {
+  display: flex;
+  justify-content: space-between; /* give equal space between the child items. */
+  font-size: 18px;
+  color: var(--gray-700);
+  margin-bottom: 22px;
 }
