@@ -8,6 +8,7 @@
   display: flex;
   align-items: center; /* aligns items/content inside this parent vertically center. */
   font-family: "Ubuntu", sans-serif;
+  z-index: 5;
 }
 
 .topbar-left,

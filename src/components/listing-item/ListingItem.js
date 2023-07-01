@@ -10,13 +10,15 @@ function listingItem() {
           <span className='listing-category'>Buy</span>
           <span className='listing-category'>Sell</span>
         </div>
-        <span className='listing-title'>Awesome Property Available</span>
+        <span className='listing-title'>Awesome Property</span>
         <hr />
         <span className='listing-time'>2 days ago</span>
-        <p className='listing-description'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, libero! Quod eum iure placeat cumque, quaerat voluptates voluptatibus et fugit totam hic adipisci odio quibusdam nesciunt quis nemo illum saepe.
-        </p>
+
       </div>
+      <p className='listing-description'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, libero! Quod eum iure placeat cumque, quaerat voluptates voluptatibus et fugit totam hic adipisci odio quibusdam nesciunt quis nemo illum saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, libero! Quod eum iure placeat cumque, quaerat voluptates voluptatibus et fugit totam hic adipisci odio quibusdam nesciunt quis nemo illum saepe.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, libero! Quod eum iure placeat cumque, quaerat voluptates voluptatibus et fugit totam hic adipisci odio quibusdam nesciunt quis nemo illum saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, libero! Quod eum iure placeat cumque, quaerat voluptates voluptatibus et fugit totam hic adipisci odio quibusdam nesciunt quis nemo illum saepe.
+      </p>
 
     </div>
   )

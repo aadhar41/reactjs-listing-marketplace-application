@@ -1,5 +1,5 @@
 .listing-item {
-  width: 380px;
+  width: 300px;
   margin: 0px 25px 40px 25px; /* Top right bottom left */
 }
 
@@ -41,4 +41,15 @@
   font-size: 14px;
   color: var(--gray);
   margin-top: 5px;
+}
+
+.listing-description {
+    color: var(--gray);
+    line-height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* show only 5 line after that show ... */
+    -webkit-box-orient: vertical;
 }
