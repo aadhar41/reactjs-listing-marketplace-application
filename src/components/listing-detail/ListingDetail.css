@@ -55,3 +55,11 @@
   font-size: 16px;
   color: var(--gray-800);
 }
+
+.listing-detail-description::first-letter {
+  /* Target the first letter. */
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: 650;
+  color: var(--darkkhaki);
+}
