@@ -15,7 +15,7 @@ function TopBar() {
                     <li className='topbar-list-item'>Home</li>
                     <li className='topbar-list-item'>About</li>
                     <li className='topbar-list-item'>Contact</li>
-                    <li className='topbar-list-item'>Create Listing</li>
+                    <li className='topbar-list-item'>Create Property</li>
                     <li className='topbar-list-item'>Logout</li>
                 </ul>
             </div>
