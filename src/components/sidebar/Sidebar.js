@@ -8,7 +8,7 @@ function Sidebar() {
                 <span className='sidebar-title'>
                     About Me
                 </span>
-                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="sidebar-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="img" />
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="sidebar-img img-fluid" alt="About Me" />
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, libero! Quod eum iure placeat cumque, quaerat voluptates voluptatibus et fugit totam hic adipisci odio quibusdam nesciunt quis nemo illum saepe.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere fugiat aut ipsa temporibus. Voluptatem architecto maiores, voluptatum nulla quis quam ipsam sequi? Omnis reprehenderit magni, sit ipsum eum maiores!

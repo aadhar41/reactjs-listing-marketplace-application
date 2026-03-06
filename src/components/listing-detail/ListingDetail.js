@@ -5,7 +5,7 @@ function ListingDetail() {
     return (
         <div className='listing-detail'>
             <div className='listing-detail-content'>
-                <img className="listing-detail-img" src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3352&h=2286&dpr=1' />
+                <img className="listing-detail-img" src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3352&h=2286&dpr=1' alt="Property Detail" />
                 <h1 className='listing-detail-title'>
                     Awesome Property
                     <div className='listing-detail-action'>

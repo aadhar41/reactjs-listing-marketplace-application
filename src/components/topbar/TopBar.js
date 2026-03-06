@@ -25,8 +25,8 @@ function TopBar() {
                 </ul>
             </div>
             <div className='topbar-right'>
-                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="topbar-profile-pic img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="img" />
-                <i class="fa-solid fa-magnifying-glass topbar-search"></i>
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="topbar-profile-pic img-fluid" alt="Profile" />
+                <i className="fa-solid fa-magnifying-glass topbar-search"></i>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function listingItem() {
   return (
     <div className='listing-item'>
-      <img src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3352&h=2286&dpr=1' className='listing-image' />
+      <img src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3352&h=2286&dpr=1' className='listing-image' alt="Property Thumbnail" />
       <div className='listing-details'>
         <div className='listing-categories'>
           <span className='listing-category'>Buy</span>
