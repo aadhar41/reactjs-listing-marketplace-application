@@ -1,5 +1,10 @@
 # ReactJS Listing Marketplace Application
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-v1.4-blue.svg)](CODE_OF_CONDUCT.md)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
+
 A modern, responsive Listing Marketplace Application built with React.js. This application provide a seamless interface for users to browse real estate listings, view detailed property information, and contribute by creating new property listings.
 
 ## Key Features
@@ -13,17 +18,9 @@ A modern, responsive Listing Marketplace Application built with React.js. This a
 
 ## Screenshots
 
-### Home Page
-
-![Home Page](public/home-page.png)
-
-### Detail Page
-
-![Detail Page](public/app-detail-page.png)
-
-### Create Page
-
-![Create Page](public/app-create-page.png)
+| Home Page | Detail Page | Create Page |
+| :---: | :---: | :---: |
+| ![Home Page](public/home-page.png) | ![Detail Page](public/app-detail-page.png) | ![Create Page](public/app-create-page.png) |
 
 ## Technologies Used
 
@@ -75,6 +72,16 @@ To run this project locally, follow these steps:
 - `npm test`: Launches the test runner.
 - `npm run build`: Builds the app for production in the `build` folder.
 
+## Community & Contribution
+
+We welcome contributions! Please see our guides below to get started:
+
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [Report a Bug](https://github.com/aadhar41/reactjs-listing-marketplace-application/issues/new?template=bug_report.yml)
+- [Request a Feature](https://github.com/aadhar41/reactjs-listing-marketplace-application/issues/new?template=feature_request.yml)
+
 ## License
 
-This project is private and intended for educational and portfolio purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Specialized for educational and portfolio purposes.
